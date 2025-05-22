@@ -178,7 +178,7 @@ class _MapWidgetState extends State<MapWidget> {
           children: [
             TileLayer(
               urlTemplate:
-                  'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=37d1c875-cf2c-4c5e-9e4d-47e4beae8aac',
+                  'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key="SUA_API_KEY"',
               userAgentPackageName: 'com.example.mapa_stadia',
               subdomains: ['a', 'b', 'c'],
             ),
